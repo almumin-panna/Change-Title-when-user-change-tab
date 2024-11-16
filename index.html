@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('visibilitychange',
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Portfolio | Panna";
+            $("#favicon").attr("href", "assets/images/favicon.jpg");
+        }
+        else {
+            document.title = "Portfolio | Al Mumin Panna";
+            $("#favicon").attr("href", "assets/images/favicon.jpg");
+        }
+    });
+  </script>
